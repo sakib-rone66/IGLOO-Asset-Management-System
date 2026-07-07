@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Portal</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Greetings and instructions -->
+
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Welcome Back</h2>
+            <p>Please enter your credentials to move forward</p>
+        </div>
+        
+        <form id="loginForm" novalidate>     <!-- Do not show your built-in, default error pop-ups. Let me handle it. -->
+
+            <!-- Email Input Group -->
+            <div class="input-group">
+                <input type="email" id="email" required placeholder=" ">
+                <label for="email">Email Address</label>
+                <span class="error-msg" id="emailError">Please enter a valid email</span>
+            </div>
+
+            <!-- Password Input Group -->
+            <div class="input-group">
+                <input type="password" id="password" required placeholder=" ">
+                <label for="password">Password</label>
+                <span class="toggle-password" id="togglePassword">👁️</span>
+                <span class="error-msg" id="passwordError">Password must be at least 6 characters</span>
+            </div>
+            
+            <!--remember me and forget section-->
+            <div class="form-actions">
+                <label class="remember-me">
+                    <input type="checkbox"> Remember me </label>
+                <a href="#" class="forgot-link">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login-btn" id="submitBtn">Sign In securely</button>
+        </form>
+
+        <div class="login-footer">
+            <p>Don't have an account? <a href="#">Create account</a></p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

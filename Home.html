@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Management System</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Asset Management System Logo">
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Assets</a>
+            <a href="#">Warranty</a>
+            <a href="#">Reports</a>
+        </nav>
+
+        <button class="login-btn">Login</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1>Smart Asset Management</h1>
+
+            <p>
+                Improve asset visibility, QR tracking, warranty management,
+                and operational efficiency using standardized
+                Asset Identification Numbers (AIN).
+            </p>
+
+            <div class="hero-buttons">
+                <button class="primary-btn">Get Started</button>
+                <button class="secondary-btn">View Assets</button>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="qr-card">
+                <div class="qr-placeholder">
+                    QR
+                </div>
+
+                <h3>AIN-26006160201882</h3>
+                <p class="status">
+                    Status:<span class="status-dot"></span>Active
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+        <h2 class="dashboard-title">DashBoard</h2>
+
+        <div class="card">
+            <h2 id="assetCount">0</h2>
+            <p>Total Assets</p>
+        </div>
+
+        <div class="card">
+            <h2 id="qrCount">0</h2>
+            <p>Active Assets</p>
+        </div>
+
+        <div class="card">
+            <h2 id="warrantyCount">0</h2>
+            </p>Under Maintenance</p>
+        </div>
+
+        <div class="card">
+            <h2 id="expireCount">0</h2>
+            <p>Warranty Expiring</p>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <h2>System Features</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>AIN Management</h3>
+                <p>Unique identification number for every freezer asset.</p>
+            </div>
+
+            <div class="feature">
+                <h3>QR Tracking</h3>
+                <p>Instant asset verification by QR scan.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Warranty</h3>
+                <p>Track warranty status and expiration.</p>
+            </div>
+
+            <div class="feature">
+                <h3>ERP Ready</h3>
+                <p>Simple numbering compatible with ERP systems.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Lifecycle</h3>
+                <p>Monitor asset movement and maintenance history.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Reports</h3>
+                <p>Generate operational and asset reports.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="steps">
+        <h2>How It Works</h2>
+        <div class="step-box">
+            <div class="step">1<br>Register Asset</div>
+            <div class="step">2<br>Generate AIN</div>
+            <div class="step">3<br>Create QR</div>
+            <div class="step">4<br>Scan QR</div>
+            <div class="step">5<br>Track Asset</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>© 2026 Asset Management System</footer>
+
+    <script src="home"></script>
+</body>
+</html>
