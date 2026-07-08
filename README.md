@@ -90,7 +90,7 @@ The system centralizes asset information, simplifies maintenance and warranty tr
 
 ### Backend
 
-* C# is primarily built on Microsoft’s .NET ecosystem, using the powerful ASP.NET Core framework to build scalable, high-performance web APIs and microservices
+* Node.js with Express.js FrameWork and REST API
 
 ### Database
 
